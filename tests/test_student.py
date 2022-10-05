@@ -43,3 +43,14 @@ def test_get_student_with_more_classes():
 
     assert  ada.get_num_classes() == 2
     # TODO: write assertions
+<<<<<<< HEAD
+=======
+    result = get_student_with_more_classes(charles, ada)
+    assert result is not False
+    assert len(result.courses) == 2
+    assert result.level == "sophomore"
+    # test for Miranda
+    result = get_student_with_more_classes(ada, charles)
+    assert len(result.courses) == 2
+    
+>>>>>>> f07adcac30ad6618ca0a881659d941bcba9b0804
