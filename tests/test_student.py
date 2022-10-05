@@ -46,7 +46,7 @@ def test_get_student_with_more_classes():
     assert result is not False
     assert len(result.courses) == 2
     assert result.level == "sophomore"
-    
+    # test for Miranda
     result = get_student_with_more_classes(ada, charles)
     assert len(result.courses) == 2
     
